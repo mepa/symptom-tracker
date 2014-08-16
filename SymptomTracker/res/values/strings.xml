@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Symptom Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- New user screen -->
+    <string name="we_need_info">We need some information.</string>
+    <string name="enter_app">Enter application</string>
+    <string name="name">Name</string>    
+    <string name="dob">Date of Birth</string>
+    
+    <!-- Main menu screen -->
+    <string name="new_symptom">New Symptom</string>
+    <string name="symptom_history">Symptom History</string>
+    <string name="open_symptom">Open Symptom</string>
+    <string name="report_symptoms">Report Symptoms</string>
+    
+    <!-- Whole body screen -->
+    <string name="tell_us_where_hurts">Tell us where it hurts.</string>
+        
+    <string name="action_settings">Settings</string>
+
+</resources>
