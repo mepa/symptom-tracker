@@ -98,13 +98,14 @@ extrinsictemperature = str(extrinsictemperature)
 
 
 
-outputfile1.write("INSERT INTO user (firstname, dob) VALUES ('"+username+"','"+dateofbirth+"');")
+outputfile1.write("INSERT INTO userx (firstname, dob) VALUES ('"+username+"','"+dateofbirth+"');")
 
-outputfile2.write("INSERT INTO event (user_id, start_date, start_time, start_time, end_date, end_time, duration, body_part, symptom, intensity, temperature) WHERE user.firstname = '"+username+"' SELECT user_id, "+startdate+","+starttime+","+enddate+","+endtime+","+duration+","+extrinsicbodypart+","+extrinsicsymptom+","+extrinsicintensity+","+extrinsictemperature+";")
-
+outputfile2.write("INSERT INTO event (user_id, start_date, start_time, end_date, end_time, duration, body_part, symptom, intensity, temperature)  SELECT user_id, "+startdate+",'"+starttime+"',"+enddate+",'"+endtime+"',"+duration+",'"+extrinsicbodypart+"','"+extrinsicsymptom+"',"+extrinsicintensity+","+extrinsictemperature+" FROM userx WHERE userx.firstname = '"+username+"';")
 
 outputfile1.write("\nCOMMIT TRANSACTION;")
 outputfile1.write(" ")
 outputfile2.write("\nCOMMIT TRANSACTION;")
 outputfile2.write(" ")
 
+#outputfile1 = close('userinfo.sql','w')
+#outputfile2 = close('eventinfo.sql','w')
