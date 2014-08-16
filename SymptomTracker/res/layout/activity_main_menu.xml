@@ -8,6 +8,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical" >
     
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9ecae1"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:text="@string/menu"/>
+    
 	<Button 
 	    android:id="@+id/go_to_whole_body_button"
         android:layout_width="match_parent"

@@ -5,12 +5,17 @@
     <string name="hello_world">Hello world!</string>
     
     <!-- New user screen -->
-    <string name="we_need_info">We need some information.</string>
+    <string name="we_need_info">Tell us about you.</string>
     <string name="enter_app">Enter application</string>
-    <string name="name">Name</string>    
+    <string name="name">Name</string> 
+    <string name="name_hint">Jane Smith</string>   
     <string name="dob">Date of Birth</string>
+    <string name="mm">MM</string>
+    <string name="dd">DD</string>
+    <string name="yyyy">YYYY</string>
     
     <!-- Main menu screen -->
+    <string name="menu">Menu</string>
     <string name="new_symptom">New Symptom</string>
     <string name="symptom_history">Symptom History</string>
     <string name="open_symptom">Open Symptom</string>
