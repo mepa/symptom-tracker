@@ -23,6 +23,8 @@
     
     <!-- Whole body screen -->
     <string name="tell_us_where_hurts">Tell us where it hurts.</string>
+    <string name="head">Head</string>
+    <string name="foot">Foot</string>
         
     <string name="action_settings">Settings</string>
 

@@ -18,4 +18,36 @@
         android:layout_marginTop="20dp"
         android:text="@string/tell_us_where_hurts"/>
     
+    <RadioGroup
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginTop="40dp">
+	    <RadioButton android:id="@+id/choose_head"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/head"
+	        android:onClick="onRadioButtonClicked"/>
+	    <!-- <RadioButton android:id="@+id/choose_chest"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/chest"
+	        android:onClick="onRadioButtonClicked"/>
+	    <RadioButton android:id="@+id/choose_abdomen"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/abdomen"
+	        android:onClick="onRadioButtonClicked"/>
+	    <RadioButton android:id="@+id/choose_left_arm"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/left_arm"
+	        android:onClick="onRadioButtonClicked"/> -->
+	    <RadioButton android:id="@+id/choose_foot"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/foot"
+	        android:onClick="onRadioButtonClicked"/>
+	</RadioGroup>
+    
 </LinearLayout>
