@@ -29,6 +29,9 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/headache"
 	        android:onClick="onRadioButtonClicked"/>
+        
+        <SeekBar 
+            android:minWidth="400dp"/>
 
 	    <RadioButton android:id="@+id/choose_fever"
 	        android:layout_width="wrap_content"
@@ -37,12 +40,18 @@
 	        android:layout_marginTop="20dp"
 	        android:onClick="onRadioButtonClicked"/>
 	    
+	            <SeekBar 
+            android:minWidth="400dp"/>
+	    
 	    <RadioButton android:id="@+id/choose_blurred_vision"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/blurred_vision"
 	        android:layout_marginTop="20dp"
 	        android:onClick="onRadioButtonClicked"/>
+	    
+	            <SeekBar 
+            android:minWidth="400dp"/>
 	    
 	</RadioGroup>
 

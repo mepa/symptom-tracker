@@ -18,4 +18,138 @@
         android:layout_marginTop="20dp"
         android:text="@string/symptom_history"/>
     
+    <TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    
+		<TableRow
+		    android:layout_width="match_parent">
+	        <TextView
+	            android:text="Start Date"
+	            android:padding="3dip" 
+	            android:textSize="10dp"
+	            />
+	        <TextView
+	            android:text="End Date"
+	            android:gravity="right"
+	            android:padding="3dip"
+	            android:textSize="10dp" />
+	    	<TextView
+	            android:text="Duration"
+	            android:gravity="right"
+	            android:padding="3dip"
+	            android:textSize="10dp" />
+	    	<TextView
+	            android:text="Body Part"
+	            android:gravity="right"
+	            android:padding="3dip"
+	            android:textSize="10dp" />
+	    	<TextView
+	            android:text="Symptom"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="Intensity"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="Temperature"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+
+    </TableRow>
+
+	<TableRow android:layout_height="1px" android:background="#BDBDBD">
+   <TextView android:layout_span="2" android:layout_height="1px" 
+             android:layout_width="fill_parent" android:text="">
+   </TextView>
+</TableRow>
+		
+    <TableRow>
+	        <TextView
+	            android:layout_column="1"
+	            android:text="August 1, 1973"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	        <TextView
+	            android:text="January 20, 2014"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="41 years"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="Head"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="Headache"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="7"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text=""
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+    </TableRow>
+        
+    <TableRow android:layout_height="1px" android:background="#BDBDBD">
+   <TextView android:layout_span="2" android:layout_height="1px" 
+             android:layout_width="fill_parent" android:text="">
+   </TextView>
+</TableRow>
+		
+    <TableRow>
+	        <TextView
+	            android:layout_column="1"
+	            android:text="July 21, 2014"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	        <TextView
+	            android:text="July 21, 2014"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="5 minutes"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="Foot"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="Pain"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text="3"
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+	    	<TextView
+	            android:text=""
+	            android:gravity="right"
+	            android:padding="3dip" 
+	            android:textSize="10dp"/>
+    </TableRow>
+    
+    </TableLayout>
+    
 </LinearLayout>

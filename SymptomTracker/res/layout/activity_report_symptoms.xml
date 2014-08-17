@@ -18,4 +18,12 @@
         android:layout_marginTop="20dp"
         android:text="@string/report_symptoms"/>
     
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="chart"
+        android:src="@drawable/symptomtrackerchart" />
+ 
+    
 </LinearLayout>

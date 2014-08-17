@@ -30,6 +30,9 @@
 	        android:text="@string/pain"
 	        android:onClick="onRadioButtonClicked"/>
 
+                <SeekBar 
+            android:minWidth="400dp"/>
+        
 	    <RadioButton android:id="@+id/choose_foot_limp"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
@@ -37,12 +40,18 @@
 	        android:layout_marginTop="20dp"
 	        android:onClick="onRadioButtonClicked"/>
 	    
+	            <SeekBar 
+            android:minWidth="400dp"/>
+	    
 	    <RadioButton android:id="@+id/choose_foot_soreness"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/soreness"
 	        android:layout_marginTop="20dp"
 	        android:onClick="onRadioButtonClicked"/>
+	    
+	            <SeekBar 
+            android:minWidth="400dp"/>
 	    
 	</RadioGroup>
 
