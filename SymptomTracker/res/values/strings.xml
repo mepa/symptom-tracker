@@ -25,7 +25,18 @@
     <string name="tell_us_where_hurts">Tell us where it hurts.</string>
     <string name="head">Head</string>
     <string name="foot">Foot</string>
-        
+    
+    <!-- Head symptoms -->
+    <string name="tell_us_how_it_hurts">Tell us how it hurts.</string>
+    <string name="headache">Headache</string>
+    <string name="fever">Fever</string>
+    <string name="blurred_vision">Blurred Vision</string>
+    
+    <!-- Foot symptoms -->
+    <string name="pain">Pain</string>
+    <string name="limp">Limp</string>    
+    <string name="soreness">Soreness</string>
+    
     <string name="action_settings">Settings</string>
 
 </resources>
